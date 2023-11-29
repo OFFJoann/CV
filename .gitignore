@@ -1,0 +1,5 @@
+#ignora archivos generados por el sistema
+.DS_Store
+
+#ignora directorios y archivos especificos 
+/__pycache__/

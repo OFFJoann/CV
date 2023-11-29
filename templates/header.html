@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href='../static/header.css'>
+    <script src="../static/js/experiencia.js"></script>
     <title>Header</title>
 </head>
 
@@ -13,47 +13,57 @@
         <div class="marco-circular">
             <img src="../static/images/foto.png" alt="Foto mia" class="imagen-circular">
         </div>
-
-        <p id="nombre" style="font-size: 22px;" class="posicion_nombre"><b>Johan Alejandro Duque Agudelo</b></p>
-        <p class="posicion_cargo" id="Cargo"> <b> Analista de sistemas</b></p>
+        <p id="nombre" style="font-size: 30px;" class="posicion_nombre"><b>Johan Alejandro Duque Agudelo</b></p>
+        <p class="posicion_cargo" id="Cargo"> <b> Analista de sistemas e de seguridad informatica</b></p>
+        
         <div class="contenedor">
             <img src="../static/images/correo.png" class="icons_links">
-            <a class="texto_alineado" href="www.gmail.com" target="_blank">
+            <a class="texto_alineado" href="https://gmail.com" target="_blank" style="text-decoration: none;">
                 <p style="color: blueviolet;" id="email">johanduquea10@gmail.com</p>
             </a>
         </div>
+        
         <div class="contenedor">
             <img src="../static/images/github.png" class="icons_links">
-            <a class="texto_alineado" href="https://github.com/OFFJoann" target="_blank">
+            <a class="texto_alineado" href="https://github.com/OFFJoann" target="_blank" style="text-decoration: none;">
                 <p id="github">OFFJoann</p>
             </a>
         </div>
+        
         <div class="contenedor">
             <img src="../static/images/linkedin.png" class="icons_links">
-            <a class="texto_alineado" href="https://www.linkedin.com/in/johan-duque-5758a52a1//" target="_blank">
+            <a class="texto_alineado" href="https://www.linkedin.com/in/johan-duque-5758a52a1//" target="_blank" style="text-decoration: none;">
                 <p id="linkedin">Johan Duque</p>
             </a>
         </div>
     </div>
+    
     <div>
         <ul class="sobre_mi">
         <li><h1 style="font-size: medium;"><b>SOBRE MI</b></h1></li>
         </ul>
         <p>Soy una persona proactiva, excelente compañero de equipo, organizado y responsable. Disfruto mucho aprender cosas nuevas, por lo que mi objetivo es un puesto <br>desafiante y dinámico donde poder compartir mi experiencia y a su vez sumar nuevos conocimientos, soy un apasionado por la ciberseguridad, me gusta<br>investigar y estar al tanto de nuevas metodologías de ataques para identificar y prevenir amenazas.</p>
     </div>
+
     <br>
+
     <div class="experiencia_dropdown"><ul>
         <li><label style="font-size: medium;" for="Experiencia"><b>EXPERIENCIA LABORAL</b></label>
-        <select name="Experiencia" id="Experiencia">
+        <select name="Experiencia" id="Experiencia" onchange="mostrarseleccion()" class="button_experience">
         
-            <option value=""></option>
-            <option value="Teleperformace">Teleperformance               2019-2020</option>
-            <option value="Creaciones Nadar S.A">Creaciones Nadar S.A          2021-2023</option>
+            <option value="0">Selecciona</option>
+            <option value="Teleperformace">Teleperformance</option>
+            <option value="Creaciones Nadar S.A">Creaciones Nadar S.A</option>
 
         </select>
+        <div id="resultado"></div>
+
         </li>
         </ul>
     </div>
+
+    <br>
+
     <div>
         <div>
             <ol style="color: blueviolet;">
@@ -64,6 +74,9 @@
             </ol>
         </div>
     </div>
+
+    <br>
+
     <div>
         <div>
             <h4>Objetivo</h4>
@@ -78,6 +91,9 @@
             <p>Lenguajes: <span>Python</span>, <span>JavaScript</span>, <span>PHP</span> </p>
         </div>
     </div>
+
+    <br>
+
     <div id="pie">
         <p id="direccion">Calle 93B # 34 50, <span>Medellín</span> 12345-6789 | Tel: <span>(555) 555-5555</span></p>
     </div>
