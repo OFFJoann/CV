@@ -68,6 +68,7 @@ body{
     background-color: #333337;
     color: white;
     border: none;
+    outline: none;
     border-radius: 17%;
     cursor: pointer;
     padding: 4px 9px;
@@ -82,8 +83,9 @@ body{
     color: #b5fbfb;
 }
 
-.experiencia_dropdown {
-    position: relative;
-    left: -9px;
+.estudios_dropdown {
+    position: absolute;
+    top: 413px;
+    left: 420px;
     color: #b5fbfb;
 }

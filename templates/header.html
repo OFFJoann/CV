@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href='../static/header.css'>
     <script src="../static/js/experiencia.js"></script>
+    <script src="../static/js/estudios.js"></script>
     <title>Header</title>
 </head>
 
@@ -47,7 +48,8 @@
 
     <br>
 
-    <div class="experiencia_dropdown"><ul>
+    <div style="color: #b5fbfb;"><ul>
+        
         <li><label style="font-size: medium;" for="Experiencia"><b>EXPERIENCIA LABORAL</b></label>
         <select name="Experiencia" id="Experiencia" onchange="mostrarseleccion()" class="button_experience">
         
@@ -56,7 +58,24 @@
             <option value="Creaciones Nadar S.A">Creaciones Nadar S.A</option>
 
         </select>
-        <div id="resultado"></div>
+        <div id="resultado" style="position: relative;"></div>
+
+        </li>
+        </ul>
+    </div>
+
+    <div style="color: #b5fbfb;"><ul>
+
+        <li><label style="font-size: medium;" for="Estudios"><b>ESTUDIOS</b></label>
+        <select name="Estudios" id="Estudios" onchange="mostrarestudios()" class="button_experience">
+
+            <option value="0">Selecciona</option>
+            <option value="Bachiller">Bachiller</option>
+            <option value="Sena">Tecnica/Ingles</option>
+            <option value="Platzi">Desarrollo</option>
+
+        </select>
+        <div id="resultado_estudios"></div>
 
         </li>
         </ul>
