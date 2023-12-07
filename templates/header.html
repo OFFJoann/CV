@@ -6,6 +6,7 @@
     <link rel="stylesheet" href='../static/header.css'>
     <script src="../static/js/experiencia.js"></script>
     <script src="../static/js/estudios.js"></script>
+    <script src="../static/js/proyectos.js"></script>
     <title>Header</title>
 </head>
 
@@ -56,7 +57,48 @@
             </ul>
         </ul>
     </div>
-    <br>
+
+    <div class="espacio_lista">
+        <ul class="posicion_descripcion">
+            <li><h1 style="font-size: medium; color: #92aecb;"><b>HABILIDADES</b></h1></li>
+            <ul style="position: relative; left: -1%;">
+                <li><h1 style="font-size: smaller; color: #92aecb;"><b>Desarrollo</b></h1></li>
+                <ul style="font-size: small;">
+                    <li><p style="color:#669787;">Scripting Python, Bash, Batch</p></li>
+                    <li><p style="color:#669787;">HTML, CSS, Js</p></li>
+                    <li><p style="color:#669787;">Controlador de versiones</p></li>
+                    <li><p style="color:#669787;">PIP, contenedores en docker y entornos virtuales</p></li>
+                    <li><p style="color:#669787;">Controlador de versiones</p></li>
+                    <li><p style="color:#669787;">FastAPI, Flask, Django</p></li>
+
+                </ul >
+                <li><h1 style="font-size: smaller; color: #92aecb;"><b>Ciberseguridad, redes de datos y SO</b></h1></li>
+                <ul style="font-size: small;">
+                    <li><p style="color:#669787;">Active directory, Windows server, DHCP, dominios locales</p></li>
+                    <li><p style="color:#669787;">Firewall (Fortinet, Mikrotik)</p></li>
+                    <li><p style="color:#669787;">Configuración de swiches Cisco, Aruba y telefonia Asterisk</p></li>
+                    <li><p style="color:#669787;">GoPhish y Zabbix para monitoreo</p></li>
+                    <li><p style="color:#669787;">Nmap, Burp Suit, SQL inyection, cross site scripting, local file inclusion, Open redirect, revelshell, phishing</p></li>
+
+                </ul>
+            </ul>
+        </ul>
+    </div>
+
+    <div style="color: #b5fbfb;"><ul>
+        <li><label style="font-size: medium; color: #92aecb;" for="Proyectos"><b>PROYECTOS</b></label>
+        <select name="Proyectos" id="Proyectos" onchange="mostrarproyectos()" class="button_experience">
+            
+            <option value="0">Selecciona</option>
+            <option value="SNMPMKK.py">SCRIPT PYTHON (SNMPMKK.py)</option>
+            <option value="BKsecure.sh">SCRIPT EN BASH (BKsecure.sh)</option>
+
+        </select>
+        <div id="resultado_proyectos" style="position: relative;"></div>
+
+        </li>
+        </ul>
+    </div>
 
     <div style="color: #b5fbfb;"><ul>
         
@@ -89,21 +131,6 @@
 
         </li>
         </ul>
-    </div>
-
-    <br>
-
-    <br>
-
-    <div>
-        <div>
-            <ul>
-                <li>Diseñé e implemente funcionalidades para usuarios finales para Producto Líder</li>
-                <li>Realice varias automatizaciones con Python y Bash</li>
-            </ul>
-            <h4>Habilidades</h4>
-            <p>Lenguajes: <span>Python</span>, <span>JavaScript</span>, <span>PHP</span> </p>
-        </div>
     </div>
 
     <br>
