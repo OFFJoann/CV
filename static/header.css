@@ -55,14 +55,15 @@ body{
 
 .texto_alineado {
     text-align: left;
+    font-size: smaller;
     color: #6b4d87;
     position: relative;
     top: 1px;
 }
 .icons_links{
     margin-right: 10px;
-    width: 2%;
-    height: auto;
+    width: 1%;
+    height: 1%;
 }
 
 .button_experience {

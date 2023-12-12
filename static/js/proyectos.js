@@ -6,10 +6,21 @@ function mostrarproyectos() {
     
     if (seleccion.value == "SNMPMKK.py") {resultado.innerHTML= '';
         resultado.innerHTML = `
+    <div class="contenedor" style="top: auto">
+        <img src="../static/images/python.png" class="icons_links">
+        <a class="texto_alineado" href="https://github.com/OFFJoann/pythongame-py" target="_blank" style="text-decoration: none; pointer-events: auto;">
+            <p style="color: #6b4d87;"><b>SNMPMKK.py</b></p>
+        </a>
+    </div>
     `;
     } else if (seleccion.value == "BKsecure.sh") {
         resultado.innerHTML =`
-
+    <div class="contenedor" style="top: auto">
+        <img src="../static/images/bash.png" class="icons_links">
+        <a class="texto_alineado" href="https://github.com/OFFJoann/automaticbash_backup.sh" target="_blank" style="text-decoration: none; pointer-events: auto;">
+            <p style="color: #6b4d87;"><b>BKsecure.sh</b></p>
+        </a>
+    </div>
         `
     } else if (seleccion.value == "0") {
         resultado.textContent = "";
