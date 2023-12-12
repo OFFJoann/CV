@@ -4,7 +4,7 @@ from flask_bootstrap import Bootstrap
 app = Flask(__name__)
 Bootstrap = Bootstrap(app)
 
-@app.route('cv_adk/')
+@app.route('/')
 def header():
     return render_template('header.html')
 
