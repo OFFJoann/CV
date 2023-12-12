@@ -1,0 +1,98 @@
+/*Fondo y letra*/
+.inicio {
+    background-color: black;
+}
+body{
+    color: azure;
+    background-color: black;
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+/*Foto de encabezado */
+.marco-circular {
+    width: 100px;
+    height: 100px;
+    overflow: hidden;
+    border-radius: 50%;
+    position: relative;
+    top: 1px;
+    left: 6px;
+}
+
+.imagen-circular {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.posicion_nombre {
+    position: absolute;
+    top: -5px;
+    left: 112px;
+    color: #608fbf;
+}
+
+.posicion_cargo {
+    position: absolute;
+    top: 42px;
+    left: 113px;
+    color: #a9c0da;
+    font-size: smaller;
+}
+
+/*Iconos*/
+
+.contenedor {
+    display: flex;
+    align-items: center;
+    position: relative;
+    top: -23px;
+    left: 11px;
+}
+
+.texto_alineado {
+    text-align: left;
+    font-size: smaller;
+    color: #6b4d87;
+    position: relative;
+    top: 1px;
+}
+.icons_links{
+    margin-right: 10px;
+    width: 1%;
+    height: 1%;
+}
+
+.button_experience {
+    background-color: #000000;
+    color: white;
+    border: none;
+    outline: none;
+    border-radius: 17%;
+    cursor: pointer;
+    padding: 4px 9px;
+    opacity: 0.6;
+    transition: background-color 0.3s ease, opacity 0.3s ease;
+}
+
+/*Descripción*/
+.sobre_mi {
+    position: relative;
+    left: -9px;
+    color: #b5fbfb;
+}
+
+.estudios_dropdown {
+    position: absolute;
+    top: 413px;
+    left: 420px;
+    color: #b5fbfb;
+}
+
+.espacio_lista {
+    margin-bottom: 5px;
+    padding-bottom: 5px;
+}
